@@ -1,0 +1,12 @@
+version: "3"
+services:
+  swa:
+    image: dikobra3/simplewebapp:1.0
+    environment:
+      WAIT_HOSTS: swa_db:3306
+    ports:
+      - "8080:8080"
+    depends_on:
+      - swa_db
+  swa_db:
+    image: dikobra3/mysql_simplewebapp:1.0

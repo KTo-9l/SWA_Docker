@@ -1,0 +1,21 @@
+FROM openjdk:21-jdk-slim
+
+ADD target/SWA_Docker-0.0.1-SNAPSHOT.jar app.jar
+
+
+ENV DB1_HOST=swa_db
+ENV DB1_PORT=3306
+ENV DB1_NAME=simplewebapp
+ENV DB1_USERNAME=root
+ENV DB1_PASSWORD=1234
+
+ENV DB2_HOST=swa_db
+ENV DB2_PORT=3306
+ENV DB2_NAME=chemistry
+ENV DB2_USERNAME=root
+ENV DB2_PASSWORD=1234
+
+
+EXPOSE 8080
+
+ENTRYPOINT ["java","-jar","app.jar"]
