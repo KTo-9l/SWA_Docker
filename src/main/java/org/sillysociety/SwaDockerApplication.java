@@ -1,4 +1,4 @@
-package org.sillysociety.swa_docker;
+package org.sillysociety;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

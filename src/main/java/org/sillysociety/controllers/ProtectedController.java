@@ -1,15 +1,13 @@
 package org.sillysociety.controllers;
 
 import org.sillysociety.config.MyUserDetails;
-import org.sillysociety.models.swa.MyUser;
 import org.sillysociety.service.ExperimentBrigadeService;
 import org.sillysociety.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/protected")

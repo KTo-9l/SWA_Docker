@@ -1,0 +1,5 @@
+Launch database:
+docker run -d --name swa_db dikobra3/mysql_simplewebapp:1.0
+
+Launch web-server:
+docker run -d --name swa -p 8080:8080 --link swa_db dikobra3/simplewebapp:1.0

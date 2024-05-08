@@ -1,7 +1,6 @@
 package org.sillysociety.repository.swa;
 
 import org.sillysociety.models.swa.MyUser;
-
 import org.springframework.data.jpa.repository.Modifying;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;

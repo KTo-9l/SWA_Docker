@@ -4,7 +4,6 @@ import org.sillysociety.config.MyUserDetails;
 import org.sillysociety.models.chemistry.Brigade;
 import org.sillysociety.models.chemistry.Experiment;
 import org.sillysociety.models.chemistry.ExperimentBrigade;
-import org.sillysociety.models.swa.MyUser;
 import org.sillysociety.service.ExperimentBrigadeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
