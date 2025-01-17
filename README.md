@@ -1,3 +1,6 @@
+## Description
+This repository demonstrates the basic use of Java Spring (JPA, Web, Security), Docker, and HTML.
+
 ## Links
 * Video of the program: [click](https://disk.yandex.ru/i/R2iTMmQ53hc-XQ)
 * Database on docker-hub: [click](https://hub.docker.com/repository/docker/dikobra3/mysql_simplewebapp/general)
